@@ -13,7 +13,6 @@ config_version=5
 config/name="EEP to MIST"
 config/version="1.0.0"
 run/main_scene="uid://bq40lcqwmue78"
-config/use_hidden_project_data_directory=false
 config/use_custom_user_dir=true
 config/custom_user_dir_name="EEPToMist"
 config/features=PackedStringArray("4.5", "Forward Plus")
