@@ -41,9 +41,9 @@ func _on_open_user_folder() -> void:
 
 func convert_to_csv(file: FileAccess) -> void:
 	# var line_num = 0
-	var path = "user://MIST_EvolutionTrack.mist"
+	var path = "user://MIST_EvolutionTrack.stellar"
 	if Debug.star_name != "":
-		path = "user://{0}.mist".format([Debug.star_name])
+		path = "user://{0}.stellar".format([Debug.star_name])
 	status.text = "[color=green]Saving to {0}[/color]".format([path])
 		
 	var testfile = FileAccess.open(path, FileAccess.WRITE)

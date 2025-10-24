@@ -19,5 +19,5 @@ export_credentials.cfg
 data_*/
 mono_crash.*.json
 
-csv_to_stp.gd
+scripts/csv_to_stp.gd
 scenes/csv_to_stp.tscn
