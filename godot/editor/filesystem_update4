@@ -1,0 +1,4 @@
+res://scenes/eep_to_mist.tscn
+res://scenes/main.tscn
+res://scenes/eep_to_stellar.tscn
+res://scripts/eep_to_stellar.gd

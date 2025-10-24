@@ -1,8 +1,8 @@
 [gd_scene load_steps=2 format=3 uid="uid://goox13qyl60c"]
 
-[ext_resource type="Script" uid="uid://coqs71uadjw8x" path="res://eep_to_mist.gd" id="1_pvxba"]
+[ext_resource type="Script" uid="uid://coqs71uadjw8x" path="res://scripts/eep_to_stellar.gd" id="1_pvxba"]
 
-[node name="EEPToCSV" type="Node"]
+[node name="EEPToSTELLAR" type="Node"]
 script = ExtResource("1_pvxba")
 
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
