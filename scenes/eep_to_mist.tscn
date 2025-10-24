@@ -1,0 +1,51 @@
+[gd_scene load_steps=2 format=3 uid="uid://goox13qyl60c"]
+
+[ext_resource type="Script" uid="uid://coqs71uadjw8x" path="res://eep_to_mist.gd" id="1_pvxba"]
+
+[node name="EEPToCSV" type="Node"]
+script = ExtResource("1_pvxba")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="OpenFile" type="Button" parent="CanvasLayer"]
+anchors_preset = -1
+anchor_left = 0.3
+anchor_top = 0.3
+anchor_right = 0.7
+anchor_bottom = 0.4
+text = "Open MIST .eep file"
+metadata/_edit_use_anchors_ = true
+
+[node name="OpenUserFolder" type="Button" parent="CanvasLayer"]
+anchors_preset = -1
+anchor_left = 0.3
+anchor_top = 0.5
+anchor_right = 0.7
+anchor_bottom = 0.6
+text = "Open user folder"
+metadata/_edit_use_anchors_ = true
+
+[node name="StarNameEdit" type="LineEdit" parent="CanvasLayer"]
+anchors_preset = -1
+anchor_left = 0.3
+anchor_top = 0.625
+anchor_right = 0.7
+anchor_bottom = 0.6734375
+placeholder_text = "Name your star!"
+alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="Status" type="RichTextLabel" parent="CanvasLayer"]
+visible = false
+anchors_preset = -1
+anchor_left = 0.3
+anchor_top = 0.4125
+anchor_right = 0.7
+anchor_bottom = 0.4875
+bbcode_enabled = true
+metadata/_edit_use_anchors_ = true
+
+[connection signal="opened_file" from="." to="." method="convert_to_csv"]
+[connection signal="pressed" from="CanvasLayer/OpenFile" to="." method="_on_open_file_pressed"]
+[connection signal="pressed" from="CanvasLayer/OpenUserFolder" to="." method="_on_open_user_folder"]
+[connection signal="text_changed" from="CanvasLayer/StarNameEdit" to="." method="_on_star_name_edit_text_changed"]

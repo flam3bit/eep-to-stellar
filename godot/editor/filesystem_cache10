@@ -1,0 +1,12 @@
+63f7b34db8d8cdea90c76aacccf841ec
+::res://::1761344214
+csv_to_stp.gd::GDScript::4886967330992960672::1760639420::0::1::::<>Node<><>0<>0<><>::
+debug.gd::GDScript::5929995425040284875::1760639566::0::1::::<>Node<><>0<>0<><>::
+eep_to_mist.gd::GDScript::5789666670165946313::1760638996::0::1::::<>Node<><>0<>0<><>::
+export_presets.cfg::TextFile::-1::1760799764::0::1::::<><><>0<>0<><>::
+icon.svg::CompressedTexture2D::7650269099263579802::1760382894::1760397754::1::::<><><>0<>0<>35fde09041beaca4bb5225fab7bddd32<>res://godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+main.gd::GDScript::616726044761573112::1761242402::0::1::::<>Node<><>0<>0<><>::
+::res://scenes/::1761242402
+csv_to_stp.tscn::PackedScene::1759383245006149120::1760639566::0::1::::<><><>0<>0<><>::uid://cbvjvxp384q6k::::res://csv_to_stp.gd
+eep_to_mist.tscn::PackedScene::450926871164709544::1760639007::0::1::::<><><>0<>0<><>::uid://coqs71uadjw8x::::res://eep_to_mist.gd
+main.tscn::PackedScene::3570846836101446289::1761242402::0::1::::<><><>0<>0<><>::uid://i10ngmfffwai::::res://main.gd<>uid://goox13qyl60c::::res://scenes/eep_to_mist.tscn
