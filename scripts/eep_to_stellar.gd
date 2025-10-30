@@ -5,9 +5,6 @@ signal opened_file(file:FileAccess)
 @onready var s_name = $CanvasLayer/StarNameEdit
 @onready var status = $CanvasLayer/Status
 
-
-
-
 func _on_open_file_pressed() -> void:
 	var open_file = FileDialog.new()
 	open_file.file_mode = FileDialog.FILE_MODE_OPEN_FILE

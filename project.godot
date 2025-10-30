@@ -10,7 +10,7 @@ config_version=5
 
 [application]
 
-config/name="EEP to MIST"
+config/name="EEP to STELLAR"
 config/version="1.0.0"
 run/main_scene="uid://bq40lcqwmue78"
 config/use_custom_user_dir=true
